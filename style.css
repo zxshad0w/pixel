@@ -1,0 +1,168 @@
+/* Не забудь подключить нужные шрифты. Удачи в разработке! */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.name{
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #2D2D2D;
+}
+.zag{
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    background: url(.png);
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.podname{
+    position: absolute;
+    width: 105.73px;
+    height: 36px;
+    left: 120px;
+    top: 0px;
+}
+
+.downloands{
+    position: absolute;
+    width: 85.93px;
+    height: 20px;
+    left: 150px;
+    top: 11px;
+
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.center{
+    position: absolute;
+    width: 1920px;
+    height: 430px;
+    left: 0px;
+    top: 0px;
+}
+
+.backg{
+    position: absolute;
+    width: 1920px;
+    height: 430px;
+    left: 0px;
+    top: 70px;
+}
+
+.textbackg{
+    position: absolute;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    line-height: 36px;
+    color: #FFFFFF;
+    top: 50%;
+    left: 20%;
+}
+
+.undertext{
+    position: absolute;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    line-height: 36px;
+    color: #776b6b;
+    top: 57%;
+    left: 20%;
+}
+    
+.btn{
+    position: absolute;
+    width: 160.16px;
+    height: 50px;
+    left: 20%;
+    top: 70%;
+    background: #FFD700;
+    border-radius: 2px;
+}
+
+.btn-text{
+    position: absolute;
+    left: calc(50% - 140.36px/2 + 5px);
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    box-shadow: 0 35px 17px rgba(116, 122, 25, 0.2);
+}
+
+.info{
+    position: absolute;
+    width: 1920px;
+    height: 320px;
+    top: 116%;
+    background-color: black;
+    background-image: url('https://i.pinimg.com/originals/f1/63/11/f16311fd0c32786525f471c685bc516e.gif');
+    background-size: auto;
+}
+
+.textinfo{
+    position: absolute;
+    top: 50%;
+    left:20%;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    color: white;
+}
+
+.under{
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    background-color: rgb(109, 69, 69);
+    top:190%;
+    background-image: url('https://i.pinimg.com/originals/b4/4a/90/b44a909ba255a70103744a624efc0654.gif');
+    background-size:auto;
+}
+
+.link{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    color: white;
+}
+
+.FAQ{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.3539px;
+    color: white;
+}
+
